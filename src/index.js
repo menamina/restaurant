@@ -1,6 +1,7 @@
 import {loadHome} from './home.js';
 import {loadMenu} from "./menu.js";
 import {loadContact} from "./contact.js";
+import './restaurant.css';
 
 const home = document.querySelector(".home");
 const menu = document.querySelector(".menu");
@@ -24,5 +25,5 @@ menu.addEventListener('click', () => {
 
 contact.addEventListener('click', () => {
     clearContent();
-    loadContact;
+    loadContact();
 });
