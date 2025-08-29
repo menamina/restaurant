@@ -1,0 +1,10 @@
+node_modules
+dist
+# don’t need to track the contents of node_modules with git, 
+#  nor push those files to GitHub. 
+# package.json file contains all the dependency information!!!!!!!!
+# so that anyone can clone  project and install them on their machine
+#  w npm install
+
+# dist can also be igored: it can be generated when someone 
+# runs the command to bundle/build the application.
